@@ -10,6 +10,6 @@ lib/model/om/*
 lib/model/map/*
 web/frontend.php
 web/frontend_*.php
-*.html
-sf*Plugin
-.htaccess.*
+web/*.html
+web/sf*Plugin
+web/.htaccess.*
