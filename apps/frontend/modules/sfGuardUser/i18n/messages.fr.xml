@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+  <file original="global" source-language="fr_FR" datatype="plaintext" date="2011-03-04T11:53:19Z">
+    <body>
+      <trans-unit>
+        <source>Users</source>
+        <target>Utilisateurs</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Editing user "%%username%%"</source>
+        <target>Edition de l'utilisateur "%%username%%"</target>
+      </trans-unit>
+      <trans-unit>
+        <source>User list</source>
+        <target>Liste des utilisateurs</target>
+      </trans-unit>
+      <trans-unit>
+        <source>New user</source>
+        <target>Nouvel utilisateur</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Created at</source>
+        <target>Date de création</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Last login</source>
+        <target>Dernière connexion</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Actions</source>
+        <target>Actions</target>
+      </trans-unit>
+      <trans-unit>
+        <source>To update the password, please fill the two "password" fields. Otherwise, let them empty.</source>
+        <target>Pour mettre à jour le mot de passe, veuillez remplir les deux champs "mot de passe". Autrement, laissez-les vide.</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Password (again)</source>
+        <target>Mot de passe (confirmation)</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Permissions and groups</source>
+        <target>Permissions et groupes</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Is active</source>
+        <target>Est actif</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Is super admin</source>
+        <target>Est super admin</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Is public ?</source>
+        <target>Accès public ?</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Phone</source>
+        <target>Téléphone</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Role</source>
+        <target>Fonction</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Groups</source>
+        <target>Groupes</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Permissions</source>
+        <target>Permissions</target>
+      </trans-unit>
+      <trans-unit>
+        <source>The two passwords must be the same.</source>
+        <target>Les deux mots de passes doivent être identique.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

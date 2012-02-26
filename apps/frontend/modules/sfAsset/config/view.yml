@@ -1,0 +1,30 @@
+listSuccess:
+  javascripts:
+    - /sfPlopPlugin/vendor/jquery/js/jquery-1.6.1.min.js: { position : first }
+    - /sfPlopPlugin/vendor/jquery/js/jquery-ui-1.8.13.min.js: { position : first }
+    - /sfAssetsLibraryPlugin/js/popup
+
+editSuccess:
+  javascripts:
+    - /sfPlopPlugin/js/admin.aloha.js
+    - /sfPlopPlugin/vendor/aloha/lib/aloha.js: { data-aloha-plugins: 'common/format,common/table,common/list,common/link,common/undo,common/paste,common/contenthandler,common/characterpicker,common/image,common/align,plopcms/plopcms' }
+  stylesheets:
+    - /sfPlopPlugin/vendor/aloha/css/aloha.css
+
+newSuccess:
+  javascripts:
+    - /sfPlopPlugin/js/admin.aloha.js
+    - /sfPlopPlugin/vendor/aloha/lib/aloha.js: { data-aloha-plugins: 'common/format,common/table,common/list,common/link,common/undo,common/paste,common/contenthandler,common/characterpicker,common/image,common/align,plopcms/plopcms' }
+  stylesheets:
+    - /sfPlopPlugin/vendor/aloha/css/aloha.css
+
+all:
+  layout: %SF_ROOT_DIR%/plugins/sfPlopPlugin/modules/sfPlopCMS/templates/layout_plugin
+  javascripts:
+    - /sfPlopPlugin/js/all.min.js
+    - /sfPlopPlugin/js/admin.js
+  stylesheets:
+    - /sfPlopPlugin/css/all.min.css
+    - /sfPlopPlugin/vendor/jquery/css/black-tie/jquery-ui-1.8.17.css
+    - /sfAssetsLibraryPlugin/css/media
+    - /sfPlopPlugin/css/admin.css

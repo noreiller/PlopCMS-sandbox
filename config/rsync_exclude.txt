@@ -1,0 +1,23 @@
+# Project files
+/cache/*
+/log/*
+/web/.htaccess
+/web/*_dev.php
+/web/*_cache.php
+/web/uploads/*
+/web/media/*
+/config/propel.ini
+/config/databases.yml
+
+# Project management
+nbproject
+
+# SCM files
+.arch-params
+.bzr
+_darcs
+.git
+.hg
+.monotone
+.svn
+CVS

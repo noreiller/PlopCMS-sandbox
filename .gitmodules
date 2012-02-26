@@ -1,0 +1,11 @@
+[submodule "lib/vendor/symfony"]
+  path = lib/vendor/symfony
+  url = git://github.com/symfony/symfony1.git
+
+[submodule "plugins/sfPlopPlugin"]
+  path = plugins/sfPlopPlugin
+  url = git://github.com/plopcms/sfPlopPlugin.git
+
+[submodule "plugins/sfPropelORMPlugin"]
+  path = plugins/sfPropelORMPlugin
+  url = git://github.com/propelorm/sfPropelORMPlugin.git

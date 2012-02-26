@@ -1,0 +1,15 @@
+<?php
+
+class frontendConfiguration extends sfApplicationConfiguration
+{
+  public function configure()
+  {}
+
+  public function initialize()
+  {
+    if (class_exists('sfPlop'))
+      sfPlop::loadPlugin(array(
+        // Add here the config settings such as : modules, slots or themes.
+      ));
+  }
+}

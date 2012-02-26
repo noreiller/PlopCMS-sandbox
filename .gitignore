@@ -1,0 +1,15 @@
+cache/*
+log/*
+web/uploads/*
+config/databases.yml
+config/propel.ini
+data/sql/*
+lib/filter/base/*
+lib/form/base/*
+lib/model/om/*
+lib/model/map/*
+web/frontend.php
+web/frontend_*.php
+*.html
+sf*Plugin
+.htaccess.*

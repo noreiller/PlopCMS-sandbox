@@ -1,0 +1,35 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           sfGuardUser
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          sf_guard_user
+    with_propel_route:     1
+
+    config:
+      filter:
+        class: false
+
+      fields:
+        password_again: { label: "Password (again)" }
+
+      list:
+        title:   User list
+        display: [=username, created_at, last_login]
+
+      form:
+        class: sfPlopGuardUserAdminForm
+        display:
+          "NONE":                   [username, password, password_again]
+          "Profile":                [first_name, last_name, role, email, phone, culture, is_public]
+          "Permissions and groups": [is_active, is_super_admin]
+
+      edit:
+        title: Editing user "%%username%%"
+
+      new:
+        title: New user

@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+  <file original="global" source-language="fr_FR" datatype="plaintext" date="2011-03-04T11:53:19Z">
+    <body>
+      <trans-unit>
+        <source>Groups</source>
+        <target>Groupes</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Editing group "%%name%%"</source>
+        <target>Edition du groupe "%%name%%"</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Group list</source>
+        <target>Liste des groupes</target>
+      </trans-unit>
+      <trans-unit>
+        <source>New group</source>
+        <target>Nouveau groupe</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Actions</source>
+        <target>Actions</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Name</source>
+        <target>Nom</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Description</source>
+        <target>Description</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

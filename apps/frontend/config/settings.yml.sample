@@ -1,0 +1,70 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/04-Settings
+
+prod:
+  .settings:
+    check_lock:             true
+    no_script_name:         true
+    logging_enabled:        false
+    cache:                  true
+
+dev:
+  .settings:
+    error_reporting:        <?php echo (E_ALL | E_STRICT)."\n" ?>
+    web_debug:              true
+    cache:                  false
+    no_script_name:         false
+    etag:                   false
+
+test:
+  .settings:
+    error_reporting:        <?php echo ((E_ALL | E_STRICT) ^ E_NOTICE)."\n" ?>
+    cache:                  false
+    web_debug:              false
+    no_script_name:         false
+    etag:                   false
+
+cache:
+  .settings:
+    error_reporting:        <?php echo (E_ALL | E_STRICT)."\n" ?>
+    web_debug:              true
+    cache:                  true
+    etag:                   false
+
+all:
+  .settings:
+    i18n:                   true
+
+    standard_helpers:       [Cache, Date, I18N, Partial, Text, sfPlop]
+
+    # Modules
+    enabled_modules:
+      - default
+      - sfGuardAuth
+      - sfGuardUser
+      - sfGuardGroup
+      - sfGuardUserAddress
+      - sfPlopGuardProfile
+      - sfPlopCMS
+      - sfPlopDashboard
+      - sfAsset
+      - sfAssetGallery
+
+    login_module:           sfPlopCMS
+    login_action:           signin
+
+    secure_module:          sfPlopCMS
+    secure_action:          secure
+
+    error_404_module:       sfPlopCMS
+    error_404_action:       error404
+
+    # Form security secret (CSRF protection)
+    csrf_secret:            c96a73030a21af958809a5644a9ba07dc6fa9e83
+
+    # Output escaping settings
+    escaping_strategy:      false
+    escaping_method:        ESC_SPECIALCHARS
+
+    # Enable the database manager
+    use_database:           true

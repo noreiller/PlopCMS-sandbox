@@ -1,0 +1,9 @@
+all:
+
+  #sf_plop:
+
+  sfAssetsLibrary:
+    upload_dir:           media
+    check_type:           false
+    search_pager_size:    20
+    mass_upload_size:     5

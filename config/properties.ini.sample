@@ -1,0 +1,4 @@
+[symfony]
+  name=plop
+  author=Aurélien MANCA <aurelien.manca@gmail.com>
+  orm=Propel
