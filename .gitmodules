@@ -29,3 +29,6 @@
 [submodule "plugins/sfPlopSlotGoogleMapsPlugin"]
 	path = plugins/sfPlopSlotGoogleMapsPlugin
 	url = git://github.com/plopcms/sfPlopSlotGoogleMapsPlugin.git
+[submodule "plugins/sfAssetsLibraryPlugin"]
+	path = plugins/sfAssetsLibraryPlugin
+	url = git://github.com/plopcms/sfAssetsLibraryPlugin.git
