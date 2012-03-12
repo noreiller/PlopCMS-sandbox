@@ -32,6 +32,8 @@ lib/model/om/*
 lib/model/map/*
 log/*
 !log/.ignore
+web/media/*
+!web/media/.ignore
 web/uploads/*
 web/frontend.php
 web/frontend_*.php
