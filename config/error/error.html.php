@@ -11,13 +11,13 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>Page not available - Plop CMS</title>
 
-  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" />
+  <meta name="viewport" content="width=device-width" />
   <link rel="shortcut icon" href="/sfPlopPlugin/images/favicon.ico" />
   <link rel="apple-touch-icon" href="/sfPlopPlugin/images/apple-touch-icon.png" />
 
   <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="/sfPlopPlugin/css/all.min.css" />
-  <script src="/sfPlopPlugin/vendor/html5-boilerplate/js/libs/modernizr-1.6.min.js"></script>
+  <script src="/sfPlopPlugin/vendor/html5-boilerplate/js/libs/modernizr-2.5.2.min.js"></script>
 </head>
 <body>
   <div class="container">
